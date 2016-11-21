@@ -29,6 +29,8 @@ group :development, :test do
   # call binding.pry to debug
   gem 'pry', '0.10.4'
   gem 'annotate'
+  gem 'rspec-rails'
+  gem 'shoulda-matchers'
 end
 
 group :development do
