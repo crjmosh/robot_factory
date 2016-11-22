@@ -18,4 +18,8 @@ class Inventor < ApplicationRecord
 		in: %w(software hardware education mad),
 		message: "Not valid."
 	}, allow_nil: true
+
+	def self.by_name
+		order(:name)
+	end
 end
